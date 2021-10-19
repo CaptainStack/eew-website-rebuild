@@ -1,0 +1,34 @@
+---
+title: "Home"
+---
+
+import Layout from '../components/Layout'
+import Map from "../images/eew-map.png"
+import { Link } from 'gatsby'
+import {
+    button
+  } from '../styles/global.module.scss'
+
+<Layout pageTitle="Home" activeHeaderLink="Home">
+
+<!--This is the main content file to edit for this page. It is embedded in src/pages/index.js, which adds additional content-->
+
+# Strong environmental regulation is important, but it’s only as good as its enforcement.
+
+The Environmental Protection Agency (EPA) is charged by Congress to enforce laws that protect people from air pollution, water pollution, and hazardous waste. The Environmental Enforcement Watch (EEW) works [with members of the public](/learn/events) to analyze and present EPA data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA.
+
+The map below shows the states and districts with completed report cards:
+
+<Link to="/data/reports"><img src={Map} alt='Maps' style='width:100%'/></Link>
+
+<Link to='/data/reports' class={button}>Show me the reports</Link>
+
+[Share this page](https://twitter.com/intent/tweet?text=EPA%20is%20overseen%20by%20two%20congressional%20committees.%20%40EnviroDGI%20took%20a%20look%20at%20environmental%20enforcement%20in%20committee%20members%27%20home%20districts%3A%20environmentalenforcementwatch.org%20%23EEWatch)
+
+# Practicing our right to know, together.
+
+We want clean air, clean water, and an end to environmental racism and injustice. 
+
+We believe in the public’s right to know, and that we can collaboratively design public open-source systems to analyze, discuss, and act on environmental data collectively. EPA data is available to the public through the [Enforcement and Compliance History Online](https://echo.epa.gov) (ECHO) database. ECHO data includes reported violations of environmental laws such as the Clean Air Act (CAA), Clean Water Act (CWA), and the Resource Conservation and Recovery Act (RCRA), which manages hazardous waste, as well as data on emissions, facility inspections, and enforcement actions issued by the EPA and state agencies. However, the database can be challenging to use and error-prone. EEW works to make this data more accessible, user-friendly, and collectively actionable through [public workshops](/learn/events), [open-source data tools](https://github.com/edgi-govdata-archiving), and projects like the [Congressional District Report Cards](/data/reports) and [COVID-19 enforcement report](https://envirodatagov.org/more-permission-to-pollute-the-decline-of-epa-enforcement-and-industry-compliance-during-covid).
+
+</Layout>

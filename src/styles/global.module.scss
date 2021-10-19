@@ -84,7 +84,7 @@ header {
   }
   nav {
     display: flex;
-    gap: 10px;
+    gap: 20px;
   }
 }
 
@@ -156,4 +156,30 @@ form {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+
+.headerItem:hover ul {
+  opacity: 1;
+  z-index: 1;
+}
+
+.headerItem {
+  ul {
+    transition: visibility 0s, opacity 0.3s linear;
+    position: absolute;
+    opacity: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      background-color: $darkprimary;
+      padding: 18px;
+      border-bottom: 1px solid black;
+      color: white;
+      &:hover {
+        background-color: darken($darkprimary, 10)
+      }
+    }
+  }
 }

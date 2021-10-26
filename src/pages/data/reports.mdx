@@ -1,14 +1,10 @@
----
-title: "Reports"
----
-
 import Layout from '../../components/Layout'
 import { DataPageSidebarLinks } from '../../helpers/constants'
 import CycleDiagram from "../../images/report-card-tracker.png"
 import { Link } from 'gatsby'
-import {
-    button
-  } from '../../styles/global.module.scss'
+import ReportCardExplorer from '../../components/ReportCardExplorer';
+
+
 
 <Layout pageTitle="Congressional Report Cards" sidebarLinks={DataPageSidebarLinks} activeHeaderLink="Data">
 
@@ -16,7 +12,7 @@ import {
 
 # Congressional Report Cards
 
-<Link to='../reports-es' className={button}>Ver esta página en español</Link>
+<Link to='../reports-es' className='button'>Ver esta página en español</Link>
 
 Two key congressional committees oversee the EPA to ensure it meets its mandate: the <a href="https://energycommerce.house.gov/" target='_blank' rel='noopener' >House Energy and Commerce Committee</a> and the <a href="https://www.epw.senate.gov/public/" target='_blank' rel='noopener' >Senate Environment and Public Works Committee</a>.
 
@@ -30,13 +26,15 @@ Summary Report – <a href="https://envirodatagov.org/wp-content/uploads/2020/10
 
 Below, **hover** to see the name and rank of a representative; **click** to open a full report on EPA enforcement in the representative's district or state:
 
+<ReportCardExplorer />
+
 <!--this snippet is for the call to action section of the page, see reports-content.md for more information-->
 
 ### Concerned about this data?
 
-<a className={button} href="https://democracy.io" target='_blank' rel='noopener' >Write to your representatives</a>
+<a className='button' href="https://democracy.io" target='_blank' rel='noopener' >Write to your representatives</a>
 
-<a className={button} href="https://docs.google.com/document/d/112O6ZQ66Bd-DFsrsOQT-43Fg8SqRAfbrLzhzG0yR4xY/edit#" target='_blank' rel='noopener' >Social Media Kit</a>
+<a className='button' href="https://docs.google.com/document/d/112O6ZQ66Bd-DFsrsOQT-43Fg8SqRAfbrLzhzG0yR4xY/edit#" target='_blank' rel='noopener' >Social Media Kit</a>
 
 <!--This is the main content file to edit for this page. It is embedded in src/pages/cd-reports.js-->
 

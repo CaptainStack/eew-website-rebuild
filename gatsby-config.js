@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "eew-website-rebuild",
+    title: "EEW-Website",
   },
   plugins: [
     "gatsby-plugin-sass",

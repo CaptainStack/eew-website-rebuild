@@ -1,7 +1,3 @@
----
-title: "About"
----
-
 import Layout from '../../components/Layout'
 import { AboutSidebarLinks } from '../../helpers/constants'
 import EDGILogo from "../../images/EDGI-logo.png"
@@ -9,11 +5,13 @@ import EEWLogo from "../../images/eew-logo-small.png"
 
 <Layout pageTitle="About" sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
 
+# About Environmental Enforcement Watch
+
 **Environmental Enforcement Watch (EEW)** is a collaborative project across Environmental Data & Governance Initiative (EDGI)’s working groups seeking to bring people together from different backgrounds to analyze and engage with the data from the Environmental Protection Agency’s <a href="https://echo.epa.gov/" target='_blank' rel='noopener'>Enforcement and Compliance History Online</a> (ECHO) database.
 
 The EEW project builds on EDGI’s 2019 Sheep in the Closet report that documents large declines in EPA enforcement of environmental laws. It is also inspired by the Open Water Data project, which visualizes Clean Water Act violations with floating lanterns in a community art event developed by EDGI co-founder Sara Wylie, Laura Perovich, and the environmental justice organization GreenRoots. Both projects use data from the EPA’s Enforcement and Compliance History Online (ECHO) database, demonstrating how useful ECHO can be for communities to track pollution and EPA responses in their areas. However, the projects also reveal ECHO's inaccessibility for non-specialists, along with many omissions, errors, and confusions present in the data itself. EEW aims to make ECHO data more readily accessible and meaningful for impacted communities while highlighting how ECHO data can be improved.
 
-<img src={EEWLogo} alt='EEW Logo' style='display:block;margin-left:auto;margin-right:auto;width:150px;'/>
+<img src={EEWLogo} className='section-break-image' alt='EEW Logo'/>
 
 # Our Goals
 * Draw large-scale public attention to the lack of environmental enforcement.
@@ -22,7 +20,7 @@ The EEW project builds on EDGI’s 2019 Sheep in the Closet report that document
 * Prototype community-oriented structures for environmental data, i.e. by congressional district, watershed, and health risks for a community
 * Bring attention to the relationship between environmental enforcement, environmental racism, and other interlocking forms of oppression (particularly white supremacy, capitalism, settler-colonialism, heteropatriarchy, etc.)
 
-<img src={EDGILogo} alt='Environmental Data and Governance Initiative logo'/>
+<img src={EDGILogo} className='full-width-image' alt='Environmental Data and Governance Initiative logo'/>
 
 # The Environmental Data and Governance Initiative
 EDGI is an international network of over 175 members from more than 80 different academic institutions and non-profits, comprised primarily of grassroots volunteer efforts. Since 2016, EDGI has served as a preeminent watchdog group for federal environmental data, generating international efforts to duplicate and monitor repositories of public data vital to environmental health research and knowledge.

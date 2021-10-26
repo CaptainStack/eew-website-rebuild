@@ -1,13 +1,6 @@
----
-title: "Home"
----
-
 import Layout from '../components/Layout'
 import Map from "../images/eew-map.png"
 import { Link } from 'gatsby'
-import {
-    button
-  } from '../styles/global.module.scss'
 
 <Layout pageTitle="Home" activeHeaderLink="Home">
 
@@ -19,9 +12,9 @@ The Environmental Protection Agency (EPA) is charged by Congress to enforce laws
 
 The map below shows the states and districts with completed report cards:
 
-<Link to="/data/reports"><img src={Map} alt='Maps' style='width:100%'/></Link>
+<Link to="/data/reports"><img src={Map} alt='Maps' className='full-width-image'/></Link>
 
-<Link to='/data/reports' class={button}>Show me the reports</Link>
+<Link to='/data/reports' className='button'>Show me the reports</Link>
 
 <Link to='https://twitter.com/intent/tweet?text=EPA%20is%20overseen%20by%20two%20congressional%20committees.%20%40EnviroDGI%20took%20a%20look%20at%20environmental%20enforcement%20in%20committee%20members%27%20home%20districts%3A%20environmentalenforcementwatch.org%20%23EEWatch' target='_blank'>Share this page</Link>
 

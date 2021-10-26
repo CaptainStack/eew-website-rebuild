@@ -1,9 +1,8 @@
----
-title: "Events"
----
-
 import Layout from '../../components/Layout'
-import { LearnPageSidebarLinks } from '../../helpers/constants'
+import TabTracks from '../../components/TabTracks'
+import { LearnPageSidebarLinks, TabGallery } from '../../helpers/constants'
+import EEWLogo from "../../images/eew-logo-small.png"
+
 import VideoThumbnail from '../../images/eew-public-workshop.png'
 
 <Layout pageTitle="Events" sidebarLinks={LearnPageSidebarLinks} activeHeaderLink="Learn">
@@ -12,7 +11,7 @@ import VideoThumbnail from '../../images/eew-public-workshop.png'
 
 EDGI's EEW events engage members of the public in the process of report-making, from delving into the data science and running Jupyter Notebooks to sharing stories about their home areas. Over the summer, we co-hosted workshops with the [Sunrise Movement Boston Hub](http://www.facebook.com/SunriseBoston/), as well as a four-part public workshop series dedicated to the completion of [EEW Congressional Report Cards](https://www.environmentalenforcementwatch.org/reports) for two key committees. In commitment to the principles of EDJ, all of our code and data are available on EDGI’s [GitHub](https://github.com/edgi-govdata-archiving/ECHO-Cross-Program), an open-source coding platform. Find recordings of past EEW events below, including our headlining [Democratizing Data: Panel Discussion & Report Release](https://youtu.be/9Ot7uFA4ucQ) webinar which was held on October 22nd.
 
-<img src={VideoThumbnail} alt='A screenshot of participants from one of our events.' />
+<img src={VideoThumbnail} alt='A screenshot of participants from one of our events.' className='full-width-image' />
 
 ## Recordings of past events:
 * [Democratizing Environmental Data: Panel Discussion & Report Release (10/22/2020)](https://youtu.be/9Ot7uFA4ucQ)
@@ -25,9 +24,9 @@ Importantly, these workshops are not meant to center EDGI or the EEW team. Rathe
 
 EEW workshops begin with collective report-making through the Jupyter Notebooks, followed by breakout sessions into different tracks based on participants’ own skills and interests. The outcomes of the various tracks will then be compiled into a single report that is informative, visually interesting, and oriented toward community action. Building on the Congressional Report Cards project, we aim to compile EEW reports into an interactive map or repository to demonstrate the power of collective action and data stewardship in addressing unchecked environmental violence. Additionally, we encourage—and can help facilitate—partners and participants to develop other creative outcomes and demonstrations from these workshops.
 
-<!-- <TabTracks items={data.eventsJson.gallery}></TabTracks> -->
+<TabTracks items={TabGallery.gallery}></TabTracks>
 
-<!-- <img src={EEWLogo} alt='EEW Logo' style='display:block;margin-left:auto;margin-right:auto;width:150px;'/> -->
+<img src={EEWLogo} alt='EEW Logo' style='display:block;margin-left:auto;margin-right:auto;width:150px;'/>
 
 # EEW Data Tools & Event Structure
 ECHO includes compliance data on air, water, and hazardous waste laws for all facilities permitted to emit, store, and use hazardous materials. It also includes data on inspections and enforcement actions taken by EPA and state agencies. It is the first database to publicly share federal environmental enforcement data. However, the website itself can be hard for non-specialists to use and understand. To increase ECHO’s public accessibility, the EEW team is developing a series of [Jupyter Notebooks](https://docs.google.com/document/d/1fAWoUbsISSV-tFZvASbTDE6KRl6Hkeu4p-N2jpQFmt0/edit)—collaborative, open-source data analysis tools—so people can use this information from ECHO to make customizable reports on pollution from facilities in areas of interest. 

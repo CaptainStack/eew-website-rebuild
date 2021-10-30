@@ -8,7 +8,7 @@ const TabTracks = tabs =>
     <Tabs>
       <TabList>
         {tabs.items.map((item, i) => (
-          <Tab><img src={item.image} /></Tab>
+          <Tab><img src={item.image} alt={item.title} /></Tab>
         ))}
       </TabList>
 

@@ -5,7 +5,7 @@ $lightprimary: #afe0d7;
 $darkprimary: #4b7f78;
 $accent: #e56d13;
 
-$content-width: 906px;
+$content-width: 970px;
 
 .Layout {
   display: flex;
@@ -145,6 +145,16 @@ main {
   flex: 1;
   img {
     width: 100%;
+    margin: 25px 0 25px 0;
+  }
+  & > {
+    p, ul {
+      line-height: 1.6;
+      margin: 0 0 20px 0;
+      li {
+        margin: 0 0 10px 0;
+      }
+    }
   }
 }
 
@@ -209,8 +219,6 @@ footer {
 .container {
   width: $content-width;
   display: flex;
-  justify-content: center;
-  flex-basis: fit-content;
 }
 
 .ReportCardExplorer {
@@ -246,5 +254,30 @@ footer {
 @media screen and (max-width: 600px) {
   aside {
     display: none;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  fieldset {
+    border-radius: 10px;
+    label {
+      font-weight: bold;
+      margin: 0 0 8px 0;
+    }
+    input, textarea {
+      height: 30px;
+      border-radius: 10px;
+      border: 1px solid lightgray;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  
+    div {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }

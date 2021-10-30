@@ -5,7 +5,7 @@ import { AboutSidebarLinks } from '../../helpers/constants'
 
 const ContactPage = () => 
   <Layout pageTitle="Contact" sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
-    <div>Press Contact: <a href='environmentalenforcementwatch@gmail.com'>environmentalenforcementwatch@gmail.com</a></div>
+    <p><strong>Press Contact: <a href='environmentalenforcementwatch@gmail.com'>environmentalenforcementwatch@gmail.com</a></strong></p>
     <h1>Contact</h1>
       <form action="https://submit-form.com/y28zl2Mj">
           <label htmlFor="name">Name</label>

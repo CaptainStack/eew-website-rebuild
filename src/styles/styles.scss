@@ -143,10 +143,9 @@ main {
   align-items: flex-start;
   flex-direction: column;
   flex: 1;
-}
-
-.full-width-image {
-  width: 100%;
+  img {
+    width: 100%;
+  }
 }
 
 .section-break-image {
@@ -158,6 +157,7 @@ main {
 aside {
   flex-basis: 140px;
   a {
+    display: block;
     color: black;
     &:hover {
       text-decoration: underline;

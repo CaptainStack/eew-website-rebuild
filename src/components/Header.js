@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from 'gatsby'
 import { HeaderLinks } from '../helpers/constants'
 import HeaderItem from '../components/HeaderItem'
-import SiteLogo from "../images/eew-logo.png"
+import SiteLogo from "../images/eew-logo.webp"
 
 const Header = ({activeLink}) =>
   <header>

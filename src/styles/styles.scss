@@ -144,7 +144,7 @@ main {
   flex-direction: column;
   flex: 1;
   & > {
-    img {
+    img, a img {
       width: 100%;
       margin: 25px 0 25px 0;
     }

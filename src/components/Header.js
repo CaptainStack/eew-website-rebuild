@@ -8,7 +8,7 @@ const Header = ({activeLink}) =>
   <header>
     <div className='container'>
       <Link to="/">
-        <img src={SiteLogo} alt="please include an alt" />
+        <img src={SiteLogo} alt="EEW Site Logo" />
       </Link>
       <nav>
       {

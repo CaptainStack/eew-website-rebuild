@@ -288,8 +288,27 @@ form {
   }
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .InfoCard {
-  outline: 1px solid black;
-  width: 200px;
-  height: 300px;
+  outline: 1px solid lightgray;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  max-width: 200px;
+  
+  margin: 10px;
+  padding: 12px;
+  color: rgb(88, 87, 87);
+  &:hover {
+    color: $darkprimary;
+    img {
+      opacity: .8;
+    }
+  }
 }

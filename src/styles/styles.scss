@@ -307,6 +307,7 @@ form {
   color: rgb(88, 87, 87);
   &:hover {
     color: $darkprimary;
+    background-color: lighten($lightprimary, 12);
     img {
       opacity: .8;
     }

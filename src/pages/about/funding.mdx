@@ -1,9 +1,17 @@
 import Layout from '../../components/Layout'
+import InfoCard from '../../components/InfoCard'
 import { AboutSidebarLinks } from '../../helpers/constants'
+import EEWLogo from "../../images/eew-logo-small.png"
 
 <Layout pageTitle="Funding" sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
 
 # Donors & Fundraising
+<InfoCard 
+    title="Card Title"
+    description='This is where you put your card description'
+    link='https://www.google.com'
+    image={EEWLogo}
+/>
 
 - <a href="https://www.ddcf.org/" target="_blank" rel="noopener" >The Doris Duke Charitable Foundation</a>
 - <a href="https://www.packard.org/" target="_blank" rel="noopener" >The David and Lucile Packard Foundation</a>

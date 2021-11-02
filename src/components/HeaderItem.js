@@ -1,9 +1,11 @@
 import * as React from "react"
 import { Link } from 'gatsby'
 
-const HeaderItem = ({link, activeLink}) =>
+const HeaderItem = ({link, activeLink}) => {
+  let targetAttributes = link.url.includes('http' || 'https') ? 'noreferrer noopener' : '';
+  return(
   <div className='headerItem'>
-    <Link key={link.url} to={link.url} className={activeLink === link.text ? 'active' : "inactive"}>
+    <Link key={link.url} to={link.url} className={activeLink === link.text ? 'active' : "inactive"} target={targetAttributes}>
       {link.text}
     </Link>
     
@@ -12,5 +14,7 @@ const HeaderItem = ({link, activeLink}) =>
     }
     
   </div>
+  )
+}
 
 export default HeaderItem

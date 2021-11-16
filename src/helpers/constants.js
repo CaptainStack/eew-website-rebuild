@@ -25,6 +25,10 @@ export const HeaderLinks = [
         text: "Research",
         url: "/data/research",
       },
+      {
+        text: "External Resources",
+        url: "/data/external-resources",
+      },
     ],
   },
   {
@@ -128,6 +132,10 @@ export const DataPageSidebarLinks = [
     text: "Research",
     url: "/data/research",
   },
+  {
+    text: "External Resources",
+    url: "/data/external-resources",
+  },
 ];
 
 export const CongressReportCardData = {
@@ -141,7 +149,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/NJ6_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"AZ",
     "district": "01",
@@ -159,7 +167,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/FL9_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"CA",
     "district": "09",
@@ -186,7 +194,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/VA4_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"CA",
     "district": "44",
@@ -211,9 +219,9 @@ export const CongressReportCardData = {
     "name":"Doris Matsui",
     "affil":"Democrat",
     "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/CA6_2020"    
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/CA6_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"CA",
     "district": "29",
@@ -267,7 +275,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/IL1_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"DE",
     "district": "00",
@@ -276,7 +284,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/DE00_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"IL",
     "district": "02",
@@ -285,7 +293,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/IL2_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"NY",
     "district": "09",
@@ -303,7 +311,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/IL9_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"CO",
     "district": "01",
@@ -312,7 +320,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/CO1_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"NY",
     "district": "20",
@@ -330,7 +338,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/CA52_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"CA",
     "district": "36",
@@ -339,7 +347,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/CA36_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"CA",
     "district": "18",
@@ -348,7 +356,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/CA18_2020"
   },
-  {      
+  {
     "rank":"Member",
     "state":"NY",
     "district": "16",
@@ -357,7 +365,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/NY16_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"PA",
     "district": "18",
@@ -366,7 +374,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/PA18_2020"
   },
-  {   
+  {
     "rank":"Member",
     "state":"FL",
     "district": "14",
@@ -375,7 +383,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/FL14_2020"
   },
-  {      
+  {
     "rank":"Member",
     "state":"MD",
     "district": "03",
@@ -384,7 +392,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/MD3_2020"
   },
-  {   
+  {
     "rank":"Member",
     "state":"IA",
     "district": "02",
@@ -393,7 +401,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/IA2_2020"
   },
-  {   
+  {
     "rank":"Member",
     "state":"MA",
     "district": "04",
@@ -402,7 +410,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/MA4_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"NH",
     "district": "02",
@@ -411,7 +419,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/NH2_2020"
   },
-  {        
+  {
     "rank":"Ranking Member",
     "state":"OR",
     "district": "02",
@@ -420,7 +428,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/OR2_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"OH",
     "district": "05",
@@ -481,7 +489,7 @@ export const CongressReportCardData = {
     "name":"Greg Gianforte",
     "affil":"Republican",
     "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/MT00_2020"  
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/MT00_2020"
   },
   {
     "rank":"Member",
@@ -546,7 +554,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/SC3_2020"
   },
-  {   
+  {
     "rank":"Member",
     "state":"MI",
     "district": "07",
@@ -555,7 +563,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/MI7_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"VA",
     "district": "09",
@@ -564,7 +572,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/VA9_2020"
   },
-  {   
+  {
     "rank":"Member",
     "state":"FL",
     "district": "12",
@@ -573,7 +581,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/FL12_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"IL",
     "district": "16",
@@ -582,7 +590,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/IL16_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"KY",
     "district": "02",
@@ -591,7 +599,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/KY2_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"TX",
     "district": "22",
@@ -600,7 +608,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/TX22_2020"
   },
-  {   
+  {
     "rank":"Member",
     "state":"TX",
     "district": "26",
@@ -609,7 +617,7 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/TX26_2020"
   },
-  {    
+  {
     "rank":"Member",
     "state":"LA",
     "district": "01",
@@ -618,14 +626,14 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/LA1_2020"
   },
-  {         
+  {
     "rank":"Member",
     "state":"IN",
     "district": "05",
     "name":"Susan W. Brooks",
     "affil":"Republican",
     "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/IN5_2020"    
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/IN5_2020"
   }],
   "senateData": [
   {
@@ -808,14 +816,14 @@ export const CongressReportCardData = {
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/NY_2020"
   },
-  {      
+  {
     "rank":"Member",
     "state":"VT",
     "name":"Bernie Sanders",
     "affil":"Independent",
     "district": "00",
     "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/VT_2020"  
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/VT_2020"
   }]
 }
 

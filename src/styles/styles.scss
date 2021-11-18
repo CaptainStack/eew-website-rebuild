@@ -1,11 +1,4 @@
-$lightprimary: #afe0d7;
-$primary: #1B7F71;
-$midprimary: #54c6b5;
-$lightprimary: #afe0d7;
-$darkprimary: #4b7f78;
-$accent: #e56d13;
-
-$content-width: 970px;
+@import './constants.scss';
 
 .Layout {
   display: flex;
@@ -61,79 +54,6 @@ a:hover {
 .button:active {
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-header {
-  background-color: $lightprimary;
-  display: flex;
-  justify-content: center;
-  height: 98px;
-
-  position: sticky;
-  top: 0px;
-  z-index:1;
-  opacity: 0.9;
-
-  a {
-    color: #000000;
-    font-size: 14pt;
-    transition: color 0.3s ease;
-    text-decoration: none;
-    text-transform: uppercase;
-    &:hover {
-      color: $accent;
-    }
-  }
-
-
-  img {
-    height: auto;
-    width: 120px;
-  }
-
-  .container {
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .active {
-    text-decoration: underline;
-    text-underline-offset: 8px;
-  }
-  nav {
-    display: flex;
-    gap: 20px;
-  }
-  box-shadow: 0px 2px 1px rgb(139, 136, 136);
-}
-
-.headerItem:hover ul {
-  opacity: 1;
-  visibility: visible;
-  z-index: 1;
-}
-
-
-
-.headerItem {
-  ul {
-    transition: visibility 0s, opacity 0.3s linear;
-    position: absolute;
-    opacity: 0;
-    visibility: hidden;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    li {
-      background-color: $darkprimary;
-      padding: 18px;
-      border-bottom: 1px solid black;
-      color: white;
-      &:hover {
-        background-color: darken($darkprimary, 10)
-      }
-    }
-  }
 }
 
 .middle {
